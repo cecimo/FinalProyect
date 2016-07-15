@@ -17,14 +17,13 @@ function prueba(data) {
 }
 var id 
 var x = 1
-function getStepOne(data) {
 var allObj = data.records
 	for (var i=0; i<allObj.length; i++){
 		var object = data.records[i]
 		d.forEach 
 		if (data.records[i].lvl===x){
 			id = data.records[i].oid;
-			var html = "<button class=\"lvl"+x+"\" style=\"background-color:"+data.records[i].col+";\">"+data.records[i].nam+"</button>";
+			var html = "<button class=\"lvl"+x+"\" >"+data.records[i].nam+"</button>";
 			$('.container').append(html);
 
 			$('.lvl').on('click', function(){
