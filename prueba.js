@@ -13,23 +13,35 @@ function hola(){
 function prueba(data) {
 	
 	getStepOne(data);
-	getStepTwo(data);
 
 }
-
+var id 
+var x = 1
 function getStepOne(data) {
-	for (var i=0; i<data.records.length; i++){
-		if (data.records[i].lvl===1){
-			var html = "<p class=\"lvl1\" style=\"background-color:"+data.records[i].col+";\">"+data.records[i].nam+"</p";
+var allObj = data.records
+	for (var i=0; i<allObj.length; i++){
+		var object = data.records[i]
+		d.forEach 
+		if (data.records[i].lvl===x){
+			id = data.records[i].oid;
+			var html = "<button class=\"lvl"+x+"\" style=\"background-color:"+data.records[i].col+";\">"+data.records[i].nam+"</button>";
 			$('.container').append(html);
 
+			$('.lvl').on('click', function(){
+
+			})
+console.log(data.records);
 		}
 	}
 
+	
 }
-
-$('.lvl1').on("click", getStepTwo(data));
-
+/*
+$('.lvl1').on('click', function(){
+	console.log("hola!");
+})
+*/
+/*
 function getStepTwo(data) {
 	console.log("hola!");
-}
+}*/
