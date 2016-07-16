@@ -1,5 +1,3 @@
-var dataObject;
-
 function accessJson(){
 	$.ajax({
 		url:"http://paleobiodb.org/data1.1/intervals/list.json?scale=1",
@@ -21,35 +19,19 @@ function accessJson(){
 }*/
 
 function prueba(data) {
-	dataObject = data.records;
-	var periods;
-	var oid;
 	
-
 	$.each(data.records, function(index,value){
 		
 		if (value.lvl===1){
 			var button= "<div class=\"col s6\"><button class=\"lvl1 btn-flat\" style=\"background-color:"+value.col+"; color:white;\">"+value.nam+"</button></div>"
-			$(".conti").append(button); 
+			$(".conti").append(button) 
 		}
-	
-		$(".lvl1").click(function(){
-			 periods = $(this).text();
-			    if (periods === value.nam){
-			     	oid = value.oid;
-			     }		
 
-		if(data.records[index].pid === oid){
-			var button2 = "<div class=\"col s6\"><button class=\"lvl2 btn-flat\" style=\"background-color:"+value.col+"; color:white;\">"+value.nam+"</button></div>"
-			$(".conti").append(button2);
-		}
+		$(".lvl1").click(function(){
+			console.log("hola");
 		});
 		
 	});
 
-}	
+}
 
-
-
-
-accessJson();
