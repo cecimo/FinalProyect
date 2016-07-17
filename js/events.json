@@ -1,138 +1,236 @@
 {
   "events":  [
-  {
-    "color":"red",
-    "name": "Ur (Vaalbara)",
-    "egnumber":"3600",
-    "age":"~ 3,600 – 2,800",
-    "description": "Smaller than any of today's continents, Ur may well have spent many millions of years as the only continent on our planet, with nothing but some tiny islands o keep it company. Today, Ur lives on as part of India, Madagascar, and Australia."
-  },
-  {
-    "color":"red",
-    "name": "Kenorland",
-    "egnumber":"2700",
-    "age":"~ 2,700 – 2,100",
-    "description": "Kenorland is believed to have formed by the accretion of Neoarchaean cratons. Kenorland comprised what later became Laurentia (the core of today's North America and Greenland), Baltica (today's Scandinavia and Baltic), Western Australia and Kalahari."
-  },
-  {
-    "color":"red",
-    "name": "Columbia (Nuna)",
-    "egnumber":"1800",
-    "age":"~ 1,800 – 1,500",
-    "description": "Columbia consisted of proto - cratons that made up the cores of the continents of Laurentia, Baltica, Ukrainian Shield, Amazonian Shield, Australia, and possibly Siberia, North China, and Kalaharia as well."
-  },
-  {
-    "color":"red",
-    "name": "Rodinia",
-    "egnumber":"1250",
-    "age":"~ 1,250 – 750",
-    "description": "Rodinia formed at c. 1.0 Ga by accretion and collision of fragments produced by breakup of an older supercontinent, Columbia, assembled by global - scale 2.0 – 1.8 Ga collisional events."
-  },
-  {
-    "color":"red",
-    "name": "Pannotia",
-    "egnumber":"600",
-    "age":"~ 600",
-    "description": "The formation of Pannotia began during the Pan - African orogeny when the Congo continent got caught between the northern and southern halves of the previous supercontinent Rodinia some 750 Ma. The peak in this mountain building event was around 640 – 610 Ma, but these continental collisions may have continued into the Early Cambrian some 530 Ma. The formation of Pannotia was the result of Rodinia turning itself inside out."
-  },
-  {
-    "color":"red",
-    "name": "Pangaea",
-    "egnumber":"300",
-    "age":"~ 300",
-    "description": "Pangaea was a supercontinent that existed during the late Paleozoic and early Mesozoic eras. In contrast to the present Earth and its distribution of continental mass, much of Pangaea was in the southern hemisphere and surrounded by a super ocean, Panthalassa. Pangaea was the last supercontinent to have existed and the first to be reconstructed by geologists."
-  },
-  {
-    "color":"black",
-    "name": "Cretaceous – Paleogene extinction event",
-    "egnumber":"66",
-    "age":"~ 66",
-    "description": "The Cretaceous – Paleogene (K – Pg) extinction event, also known as the Cretaceous – Tertiary (K – T) extinction, was a mass extinction of some three - quarters of the plant and animal species on Earth—including all non - avian dinosaurs. It marked the end of the Cretaceous period and with it, the entire Mesozoic Era, opening the Cenozoic Era that continues today. It is now generally thought that the K – Pg extinction was triggered by a massive comet or asteroid impact."
-  },
-  {
-    "color":"black",
-    "name": "Triassic – Jurassic extinction event",
-    "egnumber":"201",
-    "age":"201.3",
-    "description": "About 23% of all families, 48% of all genera (20% of marine families and 55% of marine genera) and 70% to 75% of all species became extinct. Several explanations for this event have been suggested: Gradual climate change, Asteroid impact or Massive volcanic eruptions are the most importants. Nevertheless, all have unanswered challenges."
-  },
-  {
-    "color":"black",
-    "name": "Permian – Triassic extinction event",
-    "egnumber":"252",
-    "age":"252",
-    "description": " It is the Earth's most severe known extinction event, with up to 96% of all marine species and 70% of terrestrial vertebrate species becoming extinct. There is evidence for one to three distinct pulses, or phases, of extinction. Suggested mechanisms for the latter include one or more large bolide impact events, massive volcanism, coal or gas fires and explosions from the Siberian Traps, and a runaway greenhouse effect."
-  },
-  {
-    "color":"black",
-    "name": "Late Devonian extinction",
-    "egnumber":"375",
-    "age":"375 – 360",
-    "description": "Although it is clear a massive loss of biodiversity occurred in the Later Devonian, the extent of time during which these events took place is uncertain. Nor is it clear whether it concerned two sharp mass extinctions or a series of smaller extinctions, though the latest research suggests multiple causes and a series of distinct extinction pulses through an interval of some three million years. Overall, 19% of all families and 50% of all genera became extinct."
-  },
-  {
-    "color":"black",
-    "name": "Ordovician – Silurian extinction events",
-    "egnumber":"450",
-    "age":"450 - 440",
-    "description": " Two events occurred that killed off 27% of all families, 57% of all genera and 60% to 70% of all species. Together they are ranked as the second largest of the five major extinctions in Earth's history in terms of percentage of genera that became extinct. Possible causes: the sea level and climate fluctuations, impact events, and volcanism, which should yield ejection of harmful gases, ashes, and aerosols into the atmosphere and, thus, provoke the greenhouse effect, atmosphere darkening, reduction of the photosynthesis and bio - productivity, the destruction of food chains, and anoxia."
-  },
-  {
-    "color":"black",
-    "name": "Holocene extinction",
-    "egnumber":"0",
-    "age":"Currently ongoing",
-    "description": "The Sixth extinction is the name for the ongoing extinction event of species during the present Holocene epoch mainly due to human activity. Although 875 extinctions occurring between 1500 and 2009 have been documented, the vast majority are thought to be undocumented."
-  },
-  {
-    "color":"brown",
-    "name": "Variscan or Hercynian orogeny",
-    "egnumber":"380",
-    "age":"~ 380 - 280",
-    "description": "The Variscan or Hercynian orogeny is a geologic mountain - building event caused by Late Paleozoic continental collision between Euramerica (Laurussia) and Gondwana to form the supercontinent of Pangaea. It involved a complicated heterogeneous assembly of different microplates and heterochronous collisions."
-  },
-  {
-    "color":"brown",
-    "name": "Alpine orogeny",
-    "egnumber":"50",
-    "age":"~ 65 - 2.5",
-    "description": "The Alpine Orogeny occurred mainly between 65 and 2.5 million years ago, although it is still active today. It saw the collision of the African and Eurasian plates, and the closure of the Tethys Ocean as oceanic lithosphere was subducted northwards beneath the Eurasian Plate, leaving today what we now know as the Mediterranean Sea. The Alpine Orogeny has formed the mountain ranges of the Alpide belt. These mountains include (from west to east) the Atlas, the Rif, the Baetic Cordillera, the Cantabrian Mountains, the Pyrenees, the Alps, the Apennine Mountains, the Dinaric Alps, the Hellenides, the Carpathians, the Balkan Mountains, the Taurus,the Armenian Highlands, the Caucasus, the Alborz, the Zagros, the Hindu Kush, the Pamir, the Karakoram, and the Himalayas."
-  },
-  {
-    "color":"blue",
-    "name": "Quaternary glaciaton",
-    "egnumber":"3",
-    "age":"2.58 – present",
-    "description": "Series of glacial events separated by interglacial events during the Quaternary period. Currently, Earth is in an interglacial period, which marked the beginning of the Holocene epoch. The current interglacial began between 10,000 and 15,000 years ago, which caused the ice sheets from the last glacial period to begin to disappear. Remnants of these last glaciers, now occupying about 10% of the world's land surface, still exist in Greenland, Antarctica and mountainous regions. The retreat of glaciers since 1850 is largely a consequence of anthropogenic warming of the climate system during the period."
-  },
-  {
-    "color":"blue",
-    "name": "Karoo Ice Age",
-    "egnumber":"360",
-    "age":"360 – 260",
-    "description": "The tectonic assembly of the continents of Euramerica and Gondwana into Pangaea, in the Hercynian - Alleghany Orogeny, made a major continental land mass within the Antarctic region, and the closure of the Rheic Ocean and Iapetus Ocean saw disruption of warm - water currents in the Panthalassa Ocean and Paleotethys Sea, which led to progressive cooling of summers, and the snowfields accumulating in winters, causing mountainous alpine glaciers to grow, and then spread out of highland areas, making continental glaciers which spread to cover much of Gondwana."
-  },
-  {
-    "color":"blue",
-    "name": "Andean - Saharan Glaciation",
-    "egnumber":"450",
-    "age":"450 - 420",
-    "description": "During this period glaciation is known from Arabia, Sahara, West Africa, the south Amazon, and the Andes. The center of glaciation migrated from Sahara in the Ordovician (450 - 440 Ma) to South America in the Silurian (440 - 420 Ma). The maximum extent of glaciation developed in Africa and eastern Brazil."
-  },
-  {
-    "color":"blue",
-    "name": "Snowball Earth",
-    "egnumber":"650",
-    "age":"~ 850 – 635",
-    "description": "The Snowball Earth hypothesis proposes that the Earth's surface became entirely or nearly entirely frozen. The initiation of a snowball Earth event would involve some initial cooling mechanism, which would result in an increase in the Earth's coverage of snow and ice. The increase in Earth's coverage of snow and ice would in turn increase the Earth's albedo, which would result in positive feedback for cooling. If enough snow and ice accumulates, runaway cooling would result. Many possible triggering mechanisms could account for the beginning of a snowball Earth, such as the eruption of a supervolcano, a reduction in the atmospheric concentration of greenhouse gases such as methane and/or carbon dioxide, changes in solar energy output, or perturbations of the Earth's orbit.  This event is the subject of scientific controversy"
-  },
-  {
-    "color":"blue",
-    "name": "Huronian Glaciation",
-    "egnumber":"2400",
-    "age":"2400 – 2100",
-    "description": "The Huronian glaciation followed after the Great Oxygenation Event (GOE), a time when increased atmospheric oxygen decreased atmospheric methane. It is the oldest known ice age, occurring at a time when in biological sense, only simple, unicellular life existed on Earth."
-  },
+    {
+      "color":"red",
+      "name": "Ur (Vaalbara)",
+      "egnumber":"3600",
+      "age":"~ 3,600 – 2,800",
+      "description": "Smaller than any of today's continents, Ur may well have spent many millions of years as the only continent on our planet, with nothing but some tiny islands o keep it company. Today, Ur lives on as part of India, Madagascar, and Australia."
+    },
+    {
+      "color":"red",
+      "name": "Kenorland",
+      "egnumber":"2700",
+      "age":"~ 2,700 – 2,100",
+      "description": "Kenorland is believed to have formed by the accretion of Neoarchaean cratons. Kenorland comprised what later became Laurentia (the core of today's North America and Greenland), Baltica (today's Scandinavia and Baltic), Western Australia and Kalahari."
+    },
+    {
+      "color":"red",
+      "name": "Columbia (Nuna)",
+      "egnumber":"1800",
+      "age":"~ 1,800 – 1,500",
+      "description": "Columbia consisted of proto - cratons that made up the cores of the continents of Laurentia, Baltica, Ukrainian Shield, Amazonian Shield, Australia, and possibly Siberia, North China, and Kalaharia as well."
+    },
+    {
+      "color":"red",
+      "name": "Rodinia",
+      "egnumber":"1250",
+      "age":"~ 1,250 – 750",
+      "description": "Rodinia formed at c. 1.0 Ga by accretion and collision of fragments produced by breakup of an older supercontinent, Columbia, assembled by global - scale 2.0 – 1.8 Ga collisional events."
+    },
+    {
+      "color":"red",
+      "name": "Pannotia",
+      "egnumber":"600",
+      "age":"~ 600",
+      "description": "The formation of Pannotia began during the Pan - African orogeny when the Congo continent got caught between the northern and southern halves of the previous supercontinent Rodinia some 750 Ma. The peak in this mountain building event was around 640 – 610 Ma, but these continental collisions may have continued into the Early Cambrian some 530 Ma. The formation of Pannotia was the result of Rodinia turning itself inside out."
+    },
+    {
+      "color":"red",
+      "name": "Pangaea",
+      "egnumber":"300",
+      "age":"~ 300",
+      "description": "Pangaea was a supercontinent that existed during the late Paleozoic and early Mesozoic eras. In contrast to the present Earth and its distribution of continental mass, much of Pangaea was in the southern hemisphere and surrounded by a super ocean, Panthalassa. Pangaea was the last supercontinent to have existed and the first to be reconstructed by geologists."
+    },
+    {
+      "color":"black",
+      "name": "Cretaceous – Paleogene extinction event",
+      "egnumber":"66",
+      "age":"~ 66",
+      "description": "The Cretaceous – Paleogene (K – Pg) extinction event, also known as the Cretaceous – Tertiary (K – T) extinction, was a mass extinction of some three - quarters of the plant and animal species on Earth—including all non - avian dinosaurs. It marked the end of the Cretaceous period and with it, the entire Mesozoic Era, opening the Cenozoic Era that continues today. It is now generally thought that the K – Pg extinction was triggered by a massive comet or asteroid impact."
+    },
+    {
+      "color":"black",
+      "name": "Triassic – Jurassic extinction event",
+      "egnumber":"201",
+      "age":"201.3",
+      "description": "About 23% of all families, 48% of all genera (20% of marine families and 55% of marine genera) and 70% to 75% of all species became extinct. Several explanations for this event have been suggested: Gradual climate change, Asteroid impact or Massive volcanic eruptions are the most importants. Nevertheless, all have unanswered challenges."
+    },
+    {
+      "color":"black",
+      "name": "Permian – Triassic extinction event",
+      "egnumber":"252",
+      "age":"252",
+      "description": " It is the Earth's most severe known extinction event, with up to 96% of all marine species and 70% of terrestrial vertebrate species becoming extinct. There is evidence for one to three distinct pulses, or phases, of extinction. Suggested mechanisms for the latter include one or more large bolide impact events, massive volcanism, coal or gas fires and explosions from the Siberian Traps, and a runaway greenhouse effect."
+    },
+    {
+      "color":"black",
+      "name": "Late Devonian extinction",
+      "egnumber":"375",
+      "age":"375 – 360",
+      "description": "Although it is clear a massive loss of biodiversity occurred in the Later Devonian, the extent of time during which these events took place is uncertain. Nor is it clear whether it concerned two sharp mass extinctions or a series of smaller extinctions, though the latest research suggests multiple causes and a series of distinct extinction pulses through an interval of some three million years. Overall, 19% of all families and 50% of all genera became extinct."
+    },
+    {
+      "color":"black",
+      "name": "Ordovician – Silurian extinction events",
+      "egnumber":"450",
+      "age":"450 - 440",
+      "description": " Two events occurred that killed off 27% of all families, 57% of all genera and 60% to 70% of all species. Together they are ranked as the second largest of the five major extinctions in Earth's history in terms of percentage of genera that became extinct. Possible causes: the sea level and climate fluctuations, impact events, and volcanism, which should yield ejection of harmful gases, ashes, and aerosols into the atmosphere and, thus, provoke the greenhouse effect, atmosphere darkening, reduction of the photosynthesis and bio - productivity, the destruction of food chains, and anoxia."
+    },
+    {
+      "color":"black",
+      "name": "Holocene extinction",
+      "egnumber":"0",
+      "age":"Currently ongoing",
+      "description": "The Sixth extinction is the name for the ongoing extinction event of species during the present Holocene epoch mainly due to human activity. Although 875 extinctions occurring between 1500 and 2009 have been documented, the vast majority are thought to be undocumented."
+    },
+    {
+      "color":"brown",
+      "name": "Variscan or Hercynian orogeny",
+      "egnumber":"380",
+      "age":"~ 380 - 280",
+      "description": "The Variscan or Hercynian orogeny is a geologic mountain - building event caused by Late Paleozoic continental collision between Euramerica (Laurussia) and Gondwana to form the supercontinent of Pangaea. It involved a complicated heterogeneous assembly of different microplates and heterochronous collisions."
+    },
+    {
+      "color":"brown",
+      "name": "Alpine orogeny",
+      "egnumber":"50",
+      "age":"~ 65 - 2.5",
+      "description": "The Alpine Orogeny occurred mainly between 65 and 2.5 million years ago, although it is still active today. It saw the collision of the African and Eurasian plates, and the closure of the Tethys Ocean as oceanic lithosphere was subducted northwards beneath the Eurasian Plate, leaving today what we now know as the Mediterranean Sea. The Alpine Orogeny has formed the mountain ranges of the Alpide belt. These mountains include (from west to east) the Atlas, the Rif, the Baetic Cordillera, the Cantabrian Mountains, the Pyrenees, the Alps, the Apennine Mountains, the Dinaric Alps, the Hellenides, the Carpathians, the Balkan Mountains, the Taurus,the Armenian Highlands, the Caucasus, the Alborz, the Zagros, the Hindu Kush, the Pamir, the Karakoram, and the Himalayas."
+    },
+    {
+      "color":"blue",
+      "name": "Quaternary glaciaton",
+      "egnumber":"3",
+      "age":"2.58 – present",
+      "description": "Series of glacial events separated by interglacial events during the Quaternary period. Currently, Earth is in an interglacial period, which marked the beginning of the Holocene epoch. The current interglacial began between 10,000 and 15,000 years ago, which caused the ice sheets from the last glacial period to begin to disappear. Remnants of these last glaciers, now occupying about 10% of the world's land surface, still exist in Greenland, Antarctica and mountainous regions. The retreat of glaciers since 1850 is largely a consequence of anthropogenic warming of the climate system during the period."
+    },
+    {
+      "color":"blue",
+      "name": "Karoo Ice Age",
+      "egnumber":"360",
+      "age":"360 – 260",
+      "description": "The tectonic assembly of the continents of Euramerica and Gondwana into Pangaea, in the Hercynian - Alleghany Orogeny, made a major continental land mass within the Antarctic region, and the closure of the Rheic Ocean and Iapetus Ocean saw disruption of warm - water currents in the Panthalassa Ocean and Paleotethys Sea, which led to progressive cooling of summers, and the snowfields accumulating in winters, causing mountainous alpine glaciers to grow, and then spread out of highland areas, making continental glaciers which spread to cover much of Gondwana."
+    },
+    {
+      "color":"blue",
+      "name": "Andean - Saharan Glaciation",
+      "egnumber":"450",
+      "age":"450 - 420",
+      "description": "During this period glaciation is known from Arabia, Sahara, West Africa, the south Amazon, and the Andes. The center of glaciation migrated from Sahara in the Ordovician (450 - 440 Ma) to South America in the Silurian (440 - 420 Ma). The maximum extent of glaciation developed in Africa and eastern Brazil."
+    },
+    {
+      "color":"blue",
+      "name": "Snowball Earth",
+      "egnumber":"650",
+      "age":"~ 850 – 635",
+      "description": "The Snowball Earth hypothesis proposes that the Earth's surface became entirely or nearly entirely frozen. The initiation of a snowball Earth event would involve some initial cooling mechanism, which would result in an increase in the Earth's coverage of snow and ice. The increase in Earth's coverage of snow and ice would in turn increase the Earth's albedo, which would result in positive feedback for cooling. If enough snow and ice accumulates, runaway cooling would result. Many possible triggering mechanisms could account for the beginning of a snowball Earth, such as the eruption of a supervolcano, a reduction in the atmospheric concentration of greenhouse gases such as methane and/or carbon dioxide, changes in solar energy output, or perturbations of the Earth's orbit.  This event is the subject of scientific controversy"
+    },
+    {
+      "color":"blue",
+      "name": "Huronian Glaciation",
+      "egnumber":"2400",
+      "age":"2400 – 2100",
+      "description": "The Huronian glaciation followed after the Great Oxygenation Event (GOE), a time when increased atmospheric oxygen decreased atmospheric methane. It is the oldest known ice age, occurring at a time when in biological sense, only simple, unicellular life existed on Earth."
+    },
+    {
+      "color":"green",
+      "name": "Earth Formation",
+      "egnumber":"4600",
+      "age":"4600",
+      "description": "The planet Earth forms from the accretion disc revolving around the young Sun with organic compounds (complex organic molecules) necessary for life having perhaps formed in the protoplanetary disk of cosmic dust grains surrounding it before the formation of the Earth."
+    },
+    {
+      "color":"green",
+      "name": "Moon Formation",
+      "egnumber":"4500",
+      "age":"4500",
+      "description": "According to the giant impact hypothesis, the Moon was formed when the planet Earth and the hypothesized planet Theia collided, sending a very large number of moonlets into orbit around the young Earth which eventually coalesce to form the Moon. The gravitational pull of the new Moon stabilised the Earth's fluctuating axis of rotation and set up the conditions in which abiogenesis occurred."
+    },
+    {
+      "color":"green",
+      "name": "Greenstone Belt Formation",
+      "egnumber":"4000",
+      "age":"4000",
+      "description": "Formation of a greenstone belt of the Acasta Gneiss of the Slave craton in Northwest Territories, Canada, the oldest rock belt in the world."
+    },
+    {
+      "color":"green",
+      "name": "Earliest Life ",
+      "egnumber":"4100",
+      "age":"4100",
+      "description": "Abiogenesis is the natural process of life arising from non-living matter, such as simple organic compounds. The panspermia hypothesis suggests that microscopic life was distributed by meteoroids, asteroids and other small Solar System bodies and that life may exist throughout the Universe. The earliest evidences for life on Earth are graphite found to be biogenic in 3.7 billion-year-old metasedimentary rocks discovered in western Greenland and microbial mat fossils found in 3.48 billion-year-old sandstone discovered in Western Australia."
+    },
+    {
+      "color":"green",
+      "name": "LUCA",
+      "egnumber":"3500",
+      "age":"3500",
+      "description": "Lifetime of the last universal common ancestor (LUCA), the split between bacteria and archaea occurs. Bacteria develop primitive forms of photosynthesis which at first did not produce oxygen. These organisms generated Adenosine triphosphate by exploiting a proton gradient, a mechanism still used in virtually all organisms."
+    },
+    {
+      "color":"green",
+      "name": "First Oxygen",
+      "egnumber":"3500",
+      "age":"3500",
+      "description": "Before photosynthesis evolved, Earth's atmosphere had no free oxygen (O2). Photosynthetic prokaryotic organisms that produced O2 as a waste product lived long before the first build-up of free oxygen in the atmosphere. The oxygen they produced would have been rapidly removed from the atmosphere by weathering of reducing minerals, most notably iron."
+    },
+    {
+      "color":"green",
+      "name": "Great Oxygenation Event",
+      "egnumber":"2300",
+      "age":"2300",
+      "description": "Before the GOE, any free oxygen they produced was chemically captured by dissolved iron or organic matter. The GOE was the point when these oxygen sinks became saturated and could not capture all of the oxygen that was produced by cyanobacterial photosynthesis. After the GOE, the excess free oxygen started to accumulate in the atmosphere."
+    },
+    {
+      "color":"green",
+      "name": "Ozone Layer Apperance",
+      "egnumber":"600",
+      "age":"600",
+      "description": "The accumulation of atmospheric oxygen allows the formation of an ozone layer.[43] Prior to this, land-based life would probably have required other chemicals to attenuate ultraviolet radiation enough to permit colonisation of the land."
+      },
+      {
+        "color":"green",
+        "name": "Cambrian explosion",
+        "egnumber":"560",
+        "age":"580–500",
+        "description": "Relatively short evolutionary event during which most major animal phyla appeared. Despite the evidence that moderately complex animals (triploblastic bilaterians) existed before and possibly long before the start of the Cambrian, it seems that the pace of evolution was exceptionally fast in the early Cambrian. Possible explanations for this fall into three broad categories: environmental, developmental, and ecological changes. Any explanation must explain the timing and magnitude of the explosion. The Ediacara biota represent the first large, complex multicellular organisms."
+      },
+      {
+        "color":"green",
+        "name": "Tiktaalik - Transition from sea to land",
+        "egnumber":"375",
+        "age":"375",
+        "description": "Tiktaalik has a possibility of being a representative of the evolutionary transition from fish to amphibians.  It is an example from several lines of ancient sarcopterygian fish developing adaptations to the oxygen-poor shallow-water habitats of its time, environmental conditions which are thought to have led to the evolution of tetrapods. The first well-preserved Tiktaalik fossils were found in 2004 in Canada."
+      },
+      {
+        "color":"green",
+        "name": "Earliest Dinosaurs",
+        "egnumber":"225",
+        "age":"225",
+        "description": "Relatively short evolutionary event during which most major animal phyla appeared. Despite the evidence that moderately complex animals (triploblastic bilaterians) existed before and possibly long before the start of the Cambrian, it seems that the pace of evolution was exceptionally fast in the early Cambrian. Possible explanations for this fall into three broad categories: environmental, developmental, and ecological changes. Any explanation must explain the timing and magnitude of the explosion. The Ediacara biota represent the first large, complex multicellular organisms."
+      },
+      {
+        "color":"green",
+        "name": "Chimpanzee–human last common ancestor",
+        "egnumber":"6",
+        "age":"6.5",
+        "description": "Last common ancestor shared by the extant Homo (human) and Pan (chimpanzee) genera of hominini. Due to complex hybrid speciation, it is not possible to give a precise estimate on the age of this ancestral individual. "
+      },
+      {
+        "color":"green",
+        "name": "Homo First Apperance",
+        "egnumber":"2",
+        "age":"2",
+        "description": "First members of the genus Homo appear in the fossil record. Diversification of conifers in high latitudes. The eventual ancestor of cattle, aurochs (Bos primigenus), evolves in India."
+      },
+      {
+        "color":"green",
+        "name": "Homo sapiens",
+        "egnumber":"0.2",
+        "age":"0.2",
+        "description": "Anatomically modern humans first appear in the fossil record in Africa about 195,000 years ago, and studies of molecular biology give evidence that the approximate time of divergence from the common ancestor of all modern human populations was 200,000 years ago. The forces of natural selection have continued to operate on human populations, with evidence that certain regions of the genome display directional selection in the past 15,000 years."
+      },
 
-]
+    ]
 }
