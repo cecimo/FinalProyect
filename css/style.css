@@ -2,13 +2,21 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font: bolder;
   }
 
   main {
     flex: 1 0 auto;
   }
   
-  .levels {
-  	width: 100%;
-    display: inline-block;
+.table{
+width: 100%;
+height: 150px;
+text-align: center;
   }
+
+
+#sliders {
+    background-color: linear-gradient(top, red, red 70%, transparent 70%, transparent 100%);
+
+}

@@ -1,5 +1,9 @@
-<div class="row" ng-repeat="level in levels | filter: {lvl:1}">
+<div class="row">
+<div class="col s6" ng-repeat="level in levels | filter: {lvl:1}">
 
-	<button class="btn-flat levels col s6" style="background-color:{{level.col}};">{{level.nam}}</button>
+	<div class="{{level.nam}}">
+	<button class="btn-flat levels table" style="background-color:{{level.col}};">{{level.nam}}</button>
+	</div>
 
+</div>
 </div>

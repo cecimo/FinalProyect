@@ -164,7 +164,7 @@
     {
       "color":"green",
       "name": "LUCA",
-      "egnumber":"3500",
+      "egnumber":"3550",
       "age":"3500",
       "description": "Lifetime of the last universal common ancestor (LUCA), the split between bacteria and archaea occurs. Bacteria develop primitive forms of photosynthesis which at first did not produce oxygen. These organisms generated Adenosine triphosphate by exploiting a proton gradient, a mechanism still used in virtually all organisms."
     },
@@ -230,7 +230,7 @@
         "egnumber":"0.2",
         "age":"0.2",
         "description": "Anatomically modern humans first appear in the fossil record in Africa about 195,000 years ago, and studies of molecular biology give evidence that the approximate time of divergence from the common ancestor of all modern human populations was 200,000 years ago. The forces of natural selection have continued to operate on human populations, with evidence that certain regions of the genome display directional selection in the past 15,000 years."
-      },
+      }
 
     ]
 }

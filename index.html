@@ -3,9 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>GeoTime</title>
+	<link href="css/nouislider.css" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script> 
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/nouislider.min.css">
+	<script src="js/wNumb.js"></script>
+	<script src="js/nouislider.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
@@ -19,36 +21,52 @@
 		</nav>
 	</header>
 	
-	<main class="container" ng-controller="getIntervals" >
-		<bar-dir></bar-dir>
-		<table-dir></table-dir>	
-		<div class="conti"></div>		
-	</main>
-	
-	<footer class="page-footer amber lighten-3">
-		<div class="container">
-			<div class="row">
-				<div class="col l6 s12">
-					<h6>GeoTime App</h6>
+	<main class="container" >
+		<!-- <bar-dir ng-controller="barSelector"></bar-dir> -->
+		<div ng-controller="barSelector"></div>
+			<div id="sliders" class="modal-trigger tooltipped" data-position="bottom" data-delay="50" href="#modal1"></div>
+			 <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+			<div id="modal1" class="modal modal-fixed-footer">
+				<div class="modal-content">
+					<h4 id="modalTitle"></h4>
+					<h5 id="modalAge"></h5>
+					<p id="modalContent"></p>
 				</div>
-				<div class="col l4 offset-l2 s12">
-					<h6>Contact Us</h6>
+				<div class="modal-footer">
+					<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close!</a>
 				</div>
 			</div>
-		</div>
-		<div class="footer-copyright">
+
+
+
+
+			<table-dir ng-controller="getIntervals" ></table-dir>	
+		</main>
+
+		<footer class="page-footer amber lighten-3">
 			<div class="container">
-				© 2016 Copyright Cecilia Morales
+				<div class="row">
+					<div class="col l6 s12">
+						<h6>GeoTime App</h6>
+					</div>
+					<div class="col l4 offset-l2 s12">
+						<h6>Contact Us</h6>
+					</div>
+				</div>
 			</div>
-		</div>
-	</footer>
-	<script type="text/javascript" src="js/materialize.min.js"></script>
-	<script type="text/javascript" src="js/angular.min.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
-	<script type="text/javascript" src="js/nouislider.min.js"></script>
-	<script type="text/javascript" src="js/angular-route.js"></script>
-	
-	
-	
-</body>
-</html>
+			<div class="footer-copyright">
+				<div class="container">
+					© 2016 Copyright Cecilia Morales
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
+		<script type="text/javascript" src="js/angular-route.js"></script>
+
+
+
+	</body>
+	</html>
