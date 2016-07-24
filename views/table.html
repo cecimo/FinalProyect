@@ -1,9 +1,12 @@
-<div class="row">
-<div class="col s6" ng-repeat="level in levels | filter: {lvl:1}">
 
-	<div class="{{level.nam}}">
-	<button class="btn-flat levels table" style="background-color:{{level.col}};">{{level.nam}}</button>
-	</div>
-
-</div>
-</div>
+<ul class="collapsible" data-collapsible="accordion">
+	<li ng-repeat="level in levels | filter: {lvl:1}" >
+		<div class="collapsible-header" style="background-color:{{level.col}};"><span class="icons"><i class="large material-icons">query_builder</i>{{level.lag}} - {{level.eag}} M.a.</span><span class="levels">{{level.nam}}</span></div>			
+		<div class="collapsible-body">
+			<div class="container">
+				<ul class="collapsible {{level.nam}}" data-collapsible="accordion" >
+				</ul>
+			</div>
+		</div>
+	</li>
+</ul>

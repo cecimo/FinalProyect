@@ -1,5 +1,7 @@
 var app = angular.module('GeoTimeApp', []);
 
+
+
 var levelsObject;
 var eventsObject;
 var lvloid;
@@ -10,6 +12,8 @@ app.controller('getIntervals', ['$scope','$http',function($scope,$http){
 		$scope.levels = data.data.records; 
 		levelsObject = data.data.records;
 	});
+	
+     	$('.collapsible').collapsible();
 }]);
 
 app.controller('barSelector', ['$scope', '$http', function($scope,$http){
@@ -37,7 +41,7 @@ app.directive('tableDir', function(){
 var slider = document.getElementById('sliders');
 
 noUiSlider.create(slider, {
-	start: [2500],
+	start: [1000],
 	step:50,
 	range: {
 		'min': 0,
@@ -63,18 +67,16 @@ $(document).on('click', '#sliders', function(){
 			$("#modalAge").text(value.age);
 			$('.modal-trigger').leanModal();
 		}
-		else{console.log("heeiis")}
 	});
 });
 
-
 $(document).on('click', '.levels', function(){
+	$('.collapsible').collapsible();
 	lvloid=null;
 	var buttonName = $(this).text();
-	//$('.'+buttonName).empty();
+	$('.'+buttonName).empty();
 	console.log($(this).text());
-
-
+	
 	$.each(levelsObject, function(index,value){
 
 		if (buttonName.toString() === value.nam.toString()){
@@ -82,13 +84,13 @@ $(document).on('click', '.levels', function(){
 			console.log(lvloid);						
 		}
 
-		else if(lvloid == value.pid){
+		else if(lvloid == value.pid && value.lvl===1|2|3|4){
 			console.log(lvloid);
 			var button = "<div class=\""+value.nam+"\"><button class=\"btn-flat levels "+value.lvl+"\" style=\"background-color:"+value.col+";\">"+value.nam+"</button></div>";
-			$('.'+buttonName).append(button);
-
+			var liAppend= "<li><div class=\"collapsible-header\" style=\"background-color:"+value.col+"\"><span class=\"icons\"><i class=\"large material-icons\">query_builder</i>"+value.lag+" - "+value.eag+" M.a.</span><span class=\"levels\">"+value.nam+"</span></div><div class=\"collapsible-body\"><div class=\"container\"><ul class=\"collapsible "+value.nam+"\" data-collapsible=\"accordion\"></ul></div></div></li>";
+			$('.'+buttonName).append(liAppend);
 		}
 
 	});
-
+	
 });	
